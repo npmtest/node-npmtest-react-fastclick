@@ -1,6 +1,6 @@
 # npmtest-react-fastclick
 
-#### test coverage for  [react-fastclick (v3.0.1)](https://github.com/JakeSidSmith/react-fastclick)  [![npm package](https://img.shields.io/npm/v/npmtest-react-fastclick.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-fastclick) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-fastclick.svg)](https://travis-ci.org/npmtest/node-npmtest-react-fastclick)
+#### basic test coverage for  [react-fastclick (v3.0.1)](https://github.com/JakeSidSmith/react-fastclick)  [![npm package](https://img.shields.io/npm/v/npmtest-react-fastclick.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-fastclick) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-fastclick.svg)](https://travis-ci.org/npmtest/node-npmtest-react-fastclick)
 
 #### Fast Touch Events for React
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-react-fastclick/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-react-fastclick/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-react-fastclick/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-react-fastclick/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-react-fastclick/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-react-fastclick/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-react-fastclick/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-react-fastclick/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-react-fastclick/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-react-fastclick/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-react-fastclick/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-react-fastclick/build/coverage.html/index.html)
 
@@ -97,7 +97,8 @@
         "mocha": "nyc mocha --bail --recursive 'tests/**/*.test.js'",
         "test": "npm run lint-src && npm run lint-tests && npm run mocha"
     },
-    "version": "3.0.1"
+    "version": "3.0.1",
+    "bin": {}
 }
 ```
 
